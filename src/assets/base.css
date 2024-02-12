@@ -1,0 +1,59 @@
+/* color palette from <https://github.com/vuejs/theme> */
+:root {
+  --primary-color: #bb86fc;
+  --secondary-color: #03dac6;
+  --background-color: #292929;
+  --elevation-color: #414141;
+  --input-color: #474747;
+  --input-focus-color: #545454;
+  --main-text-color: rgba(255, 255, 255, 0.6);
+  --secondary-text-color: rgba(255, 255, 255, 0.85);
+  --elevation-hover: #545454;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  padding: 16px;
+  min-height: 100vh;
+  color: var(--main-text-color);
+  background: var(--background-color);
+
+  line-height: 1.6;
+  font-family:
+    Roboto,
+    Inter,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Fira Sans',
+    'Droid Sans',
+    'Helvetica Neue',
+    sans-serif;
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+input {
+  background-color: transparent;
+  outline: none;
+  box-shadow: none;
+  border: none;
+}
+
+button {
+  font: inherit;
+  border: none;
+}
